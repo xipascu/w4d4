@@ -33,7 +33,9 @@ client.connect((err) => {
      let month = birthdate.getMonth()+1;
      month = (month > 9) ? month : '0' + month;
     //  let day = birthdate.getDay()+1;
-    //  if
+    // if (month > 9) {
+
+    }
 
 //  -----FIX DAY
 
